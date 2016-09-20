@@ -10,7 +10,7 @@ import (
 
 var (
 	cb      = lib.NewCodeBeautifier()
-	cfg     = config.MustNew("csscleaner", "0.0.1", "cleans a given css file by using www.codebeautifier.com service")
+	cfg     = config.MustNew("csscleaner", "1.0.0", "cleans a given css file by using www.codebeautifier.com service")
 	fileArg = cfg.NewString(
 		"file",
 		"file containing the css",
