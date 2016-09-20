@@ -1,2 +1,2 @@
 # csscleaner
-client to the service www.codebeautifier.com
+client to the service csstidy
